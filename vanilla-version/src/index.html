@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="flex justify-center items-center min-h-screen bg-green-900">
+    <div
+      class="bg-green-500 p-8 rounded-lg shadow-xl max-w-sm w-full text-center"
+    >
+      <div class="text-3xl font-mono font-bold text-white mb-4">
+        <h1>Generate a</h1>
+        <h1 class="underline">Random Password</h1>
+      </div>
+      <div class="mb-4">
+        <input
+          id="field"
+          class="w-full p-3 rounded-md border-2 border-green-300 text-xl text-center focus:outline-none focus:ring-2 focus:ring-green-300"
+          type="text"
+          placeholder="Password"
+        />
+      </div>
+      <button
+        id="generateButton"
+        class="w-full p-3 bg-green-700 text-white font-semibold rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400"
+      >
+        Generate Password
+      </button>
+    </div>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
